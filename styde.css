@@ -14,9 +14,13 @@ body{background-color: rgb(172, 199, 204); color: rgba(39, 47, 48, 0.979);}
 /* padding espaçamento entre elementos, "linhas" */
 /* font-size: muda o tamanho da fonte do texto */
 .escola-paragrafo-2{color:rgb(0, 0, 0); font-size: 20px;}
-.escola-imagem{width: 20%; margin: 10px; padding: 35px 0;font-size: 30px; }
+.escola-imagem{width: 30%; margin: 10px; padding: 35px 0;font-size: 30px; }
+.troca-imagem{width: 30%; margin: 10px; padding: 35px 0;font-size: 30px; }
 .escola{display: flex;justify-content:left; align-items:normal;}
 /* tag background-image:lineat-gradient cria cor de fundo degradê */
 /* ao adicionar -45deg você escolhe o ângulo do seu degradê na tag  background-image:lineat-gradient */
 /* justify- content significa justificar o conteúdo e a opção que escolhemos vai justificar margem iguais para elementos de uma mesma linha */
 /* align-items aliar os elementos em uma determinada posição, pode ser por exemplo a esquerda, direita, em baixo e assim por diante*/
+.texto{color: rgb(0, 0, 0);}
+.texto{display: inline-block;margin: 0 50px; padding: 20px 0;font-size: 25px}
+.paragrafo-maior{font-size: 24px;font-family:'Delicious+Handrawn',sans-serif;}
